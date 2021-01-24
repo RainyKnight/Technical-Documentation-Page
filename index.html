@@ -20,14 +20,11 @@
   <title>Generic Title</title>
 </head>
 
-<body class="HolyGrail Site">
-  <header>
-    <h1>Technical Documentation Page</h1>
-  </header>
+<body class="HolyGrail Site Grid">
   <div class="HolyGrail-body">
     <main class="HolyGrail-content Site-content" id="main-doc">
-      <section class="main-section">
-        <header>Section 1</header>
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna
@@ -44,7 +41,7 @@
           massa tincidunt dui. Nulla malesuada pellentesque elit eget gravida cum sociis.
         </p>
       </section>
-      <section class="main-section">
+      <section class="main-section" id="section-2">
         <header>Section 2</header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -62,7 +59,7 @@
           massa tincidunt dui. Nulla malesuada pellentesque elit eget gravida cum sociis.
         </p>
       </section>
-      <section class="main-section">
+      <section class="main-section" id="section-3">
         <header>Section 3</header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -83,8 +80,13 @@
     </main>
 
     <nav class="HolyGrail-nav">
+      <header>Technical Documentation</header>
       <!-- navbar stuff goes here -->
-
+      <div class="list-group">
+        <a href="#introduction" class="list-group-item list-group-item-action">Introduction</a>
+        <a href="#section-2" class="list-group-item list-group-item-action">Section 2</a>
+        <a href="#section-3" class="list-group-item list-group-item-action">Section 3</a>
+      </div>
     </nav>
 
     <aside class="HolyGrail-ads">
