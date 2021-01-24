@@ -1,0 +1,17 @@
+:root {
+    /* Color Palette*/
+    --white: white;
+    --black: black;
+    /*  */
+    /* Other Variables */
+    --default-shadow: 0 2px 5px black;
+    /*  */
+}
+
+header {
+    text-align: center;
+}
+  
+footer {
+    text-align: center;
+}
