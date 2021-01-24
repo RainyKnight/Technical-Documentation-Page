@@ -29,7 +29,6 @@ https://github.com/philipwalton/solved-by-flexbox
 
 .HolyGrail-header, .HolyGrail-footer {
     flex: none;
-    /* 2 */
 }
 
 .HolyGrail-body {
@@ -63,6 +62,11 @@ https://github.com/philipwalton/solved-by-flexbox
     background: rgba(147, 128, 108, 0.1);
 }
 
+.HolyGrail-footer {
+    text-align: center;
+    margin-left: 300px;
+}
+
 /* Mobile layout */
 
 @media (max-width: 768px) {
@@ -80,5 +84,9 @@ https://github.com/philipwalton/solved-by-flexbox
     }
     .HolyGrail-nav {
         flex: 0 0 12em;
+    }
+    .HolyGrail-footer {
+        text-align: center;
+        margin-left: unset;
     }
 }
