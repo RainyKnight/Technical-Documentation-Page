@@ -49,19 +49,16 @@ https://github.com/philipwalton/solved-by-flexbox
 .HolyGrail-nav {
     order: -1;
     position: fixed;
+    background: var(--off-white);
+    padding: 1rem;
     min-width: 290px;
     top: 0px;
     left: 0px;
     width: 300px;
     height: 100%;
     border-right: solid;
-    border-color: var(--border-color);
-}
-
-.HolyGrail-nav {
-    padding: 1em;
     border-radius: 3px;
-    background: var(--off-white);
+    border-color: var(--border-color);
 }
 
 .HolyGrail-footer {
