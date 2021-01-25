@@ -2,6 +2,7 @@
     /* Color Palette*/
     --white: white;
     --black: black;
+    --off-white: rgba(147, 128, 108, 0.1);
     /*  */
     /* Other Variables */
     --default-shadow: 0 2px 5px black;
@@ -17,6 +18,13 @@ article {
     margin-left: 10px;
 }
 
+code {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--off-white);
+}
+
 header {
     font-weight: 500;
     font-size: 20pt;
@@ -25,5 +33,14 @@ header {
 /* Mobile layout */
 
 @media (max-width: 768px) {
-    
+    code {
+        display: flex;
+        margin: unset;
+        padding: 0.5rem;
+        background-color: var(--off-white);
+    }
+    article {
+        margin: initial;
+        margin: 0.5rem;
+    }
 }

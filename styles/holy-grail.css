@@ -18,6 +18,8 @@ https://github.com/philipwalton/solved-by-flexbox
     --space: 1.5em;
     --space-lg: 2em;
     --break-lg: 768px;
+    --off-white: rgba(147, 128, 108, 0.1);
+    --border-color: rgba(0, 22, 22, 0.4);
 }
 
 .HolyGrail {
@@ -53,13 +55,13 @@ https://github.com/philipwalton/solved-by-flexbox
     width: 300px;
     height: 100%;
     border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
+    border-color: var(--border-color);
 }
 
 .HolyGrail-nav {
     padding: 1em;
     border-radius: 3px;
-    background: rgba(147, 128, 108, 0.1);
+    background: var(--off-white);
 }
 
 .HolyGrail-footer {
