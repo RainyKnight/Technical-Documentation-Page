@@ -5,7 +5,7 @@
     --off-white: rgba(147, 128, 108, 0.1);
     /*  */
     /* Other Variables */
-    --default-shadow: 0 2px 5px black;
+    --default-shadow: 0 2px 2px rgba(0, 0, 0, 0.274);
     /*  */
 }
 
@@ -23,6 +23,7 @@ code {
     margin: 1rem;
     padding: 0.5rem;
     background-color: var(--off-white);
+    box-shadow: var(--default-shadow);
 }
 
 header {
